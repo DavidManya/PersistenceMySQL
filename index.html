@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>       
+        <meta charset="utf-8">
+        <title>Formulario de Gestión de Empleados</title>
+        <!--Imports-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--JavaScripts-->
+        <!--<script src="pagineta.js"></script>-->
+        <script src="Acces_Ajax_MySQL.js"></script>
+        <!--Styles-->
+        <style type="text/css">
+            @import url('styles.css');
+        </style>
+    </head>
+    <body>
+        <div class="section">
+            <h2 class="title">Formulari de gestió d'empleats:</h2>
+            <form id="commentform" class="comment-form">
+                <div class="comment-form-empleatid">
+                    <input type="text" placeholder="EmpleatId *" id="eId" name="eId" value="" size="30" maxlength="245" required />
+                    <label for="eId" data-help="Si és alta indicar 0">EmpleatId</label>
+                </div>
+                <div class="comment-form-dni">
+                    <input type="text" placeholder="Dni *" id="eDni" name="eDni" value=""  size="30" maxlength="245" />
+                    <label for="eDni" data-help="Introdueixi el DNI">DNI</label>
+                </div>
+                <div class="comment-form-nom">
+                    <input type="text" placeholder="Nom *" id="eNom" name="eNom" value=""  size="30" maxlength="245" />
+                    <label for="eNom" data-help="Introdueixi el Nom">Nom</label>
+                </div>
+                <div class="comment-form-cognom">
+                    <input type="text" placeholder="Cognoms *" id="eCognoms" name="eCognoms" value=""  size="30" maxlength="245" />
+                    <label for="eCognoms" data-help="Introdueixi els Cognoms">Cognoms</label>
+                </div>
+                <div class="comment-form-carrec">
+                    <input type="text" placeholder="Càrrec *" id="eCarrec" name="eCarrec" value=""  size="30" maxlength="245" />
+                    <label for="eCarrec" data-help="Introdueixi el lloc de treball">Càrrec</label>
+                </div>
+                <div class="comment-form-correu">
+                    <input type="email" placeholder="Correu *" id="eCorreu" name="eCorreu" value=""  size="30" maxlength="245" />
+                    <label for="eCorreu" data-help="Introdueixi el correu electrònic">Correu</label>
+                </div>
+                <div class="comment-form-sou">    
+                    <input type="number" placeholder="Sou *" id="eSou" step="500" min="0" name="eSou" value="" />
+                    <label for="eSou" data-help="Introdueixi el sou">Sou</label>
+                </div>
+                <br />
+                <div class="form-submmit">
+                    <button onclick="addWorker()" formaction="addWorker()">Guardar</button>
+                    <button onclick="getWorker()" formaction="getWorker()">Cercar</button>
+                    <button onclick="delWorker()" formaction="delWorker()">Eliminar</button>
+                    <button onclick="modWorker()" formaction="modWorker()">Modificar</button>
+                    <input name="reset" type="reset" id="reset" class="reset">
+                </div>  
+            </form>
+        </div>
+    </body>
+</html> 
