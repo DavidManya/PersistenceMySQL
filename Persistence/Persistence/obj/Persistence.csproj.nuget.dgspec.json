@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmany\\Desktop\\PersistenceMySQL\\Persistence\\Persistence\\Persistence.csproj": {}
+    "C:\\Users\\dmany\\Desktop\\Persistence MySQL\\Persistence\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmany\\Desktop\\PersistenceMySQL\\Persistence\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\dmany\\Desktop\\Persistence MySQL\\Persistence\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmany\\Desktop\\PersistenceMySQL\\Persistence\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\dmany\\Desktop\\Persistence MySQL\\Persistence\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\dmany\\Desktop\\PersistenceMySQL\\Persistence\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\dmany\\Desktop\\Persistence MySQL\\Persistence\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\dmany\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmany\\Desktop\\PersistenceMySQL\\Persistence\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\dmany\\Desktop\\Persistence MySQL\\Persistence\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dmany\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
